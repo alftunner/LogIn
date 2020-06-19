@@ -1,0 +1,19 @@
+﻿<Window x:Class="LogIn.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LogIn"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="300" Width="450">
+    <Grid Background="#FFFFFF8D">
+        <Label Content="Login : " HorizontalAlignment="Left" Margin="94,72,0,0" VerticalAlignment="Top" FontSize="18" FontFamily="Arial Black"/>
+        <Label Content="Password : " HorizontalAlignment="Left" Margin="53,120,0,0" VerticalAlignment="Top" FontSize="18" FontFamily="Arial Black"/>
+        <TextBox  x:Name="Login" HorizontalAlignment="Left" Margin="182,75,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="216" Height="27"/>
+        <PasswordBox  x:Name="Password" HorizontalAlignment="Left" Margin="182,122,0,0" VerticalAlignment="Top" Width="216" Height="27"/>
+        <Button Content="Создать" HorizontalAlignment="Left" Margin="40,189,0,0" VerticalAlignment="Top" Height="39" Width="110" FontSize="16" FontFamily="Bahnschrift Light Condensed" FontWeight="Normal" Background="#FF80D8FF" Click="Button_Click"/>
+        <Button Content="Войти" HorizontalAlignment="Left" Margin="176,189,0,0" VerticalAlignment="Top" Height="39" Width="110" FontSize="16" FontFamily="Bahnschrift Light Condensed" Background="#FF80D8FF" Click="Button_Click_1"/>
+        <Button Content="Фаил" HorizontalAlignment="Left" Margin="308,189,0,0" VerticalAlignment="Top" Height="39" Width="110" FontFamily="Bahnschrift Light Condensed" FontSize="16" Background="#FF80D8FF" Click="Button_Click_2"/>
+
+    </Grid>
+</Window>
